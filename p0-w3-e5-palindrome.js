@@ -9,16 +9,16 @@ Contoh, 'katak' dibalik tetaplah 'katak'.
 
 function palindrome(kata) {
   var strNewKata = '';
-  console.log(kata.length);
+  //console.log(kata.length);
   for(i=kata.length; i>0; i--) {
     strNewKata += kata.substr(i-1, 1);
   }
   if(strNewKata === kata) {
-      console.log(strNewKata + ' ' + kata);
+    //console.log(strNewKata + ' ' + kata);
     return true;
   }
   else {
-    console.log(strNewKata + ' ' + kata);
+    //console.log(strNewKata + ' ' + kata);
     return false;
   }
 }
