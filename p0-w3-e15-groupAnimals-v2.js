@@ -30,6 +30,7 @@ function groupAnimals(animals) {
     arrHasil.push(arrKel);
     arrKel = [];
   } //end of for
+  
   //perulangan hapus duplikat
   for(var numLoop1=0; numLoop1<arrHasil.length; numLoop1++) {
     //console.log('1 ' + numLoop1 + ' ' + arrHasil[numLoop1]);
